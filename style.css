@@ -1,0 +1,374 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.header {
+    display: block;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.block_header {
+    background: rgba(0, 91, 193, 0.6);
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.container_header {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container__header {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo_svg {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+.mnu_top {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.li_first {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.875em;
+}
+
+.li {
+    color: white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 0.875em;
+    padding-left: 26px;
+}
+
+
+.container {
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.left_container {
+    width: 40%;
+    background: rgba(0, 91, 193, 0.6);
+    height: calc(100vh - 80px);
+}
+
+.first_screen__content {
+    width: 56%;
+    position: absolute;
+    margin-left: 190px;
+}
+
+.h1 {
+    font-size: 3em;
+    color: white;
+    font-family: "Oswald";
+    font-weight: 400;
+}
+
+.work {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    margin-top: 40px;
+}
+
+.workp {
+    margin-top: 0;
+}
+
+.go_over {
+    padding: 15px 40px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1em;
+    background-color: Transparent;
+    color: white;
+    border: 2px solid #FFFFFF;
+    margin-top: 40px;
+}
+
+.intention {
+    margin-top: 155px;
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_projects {
+    display: flex;
+
+}
+
+.h2 {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.875em;
+    padding-left: 40px;
+}
+
+.slider_menu {
+    display: flex;
+    justify-content: right;
+}
+
+.olympus {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.rectangle1 {
+    width: 49%;
+    position: relative;
+}
+
+.text_project1 {
+    background-color: white;
+    padding: 20px 25px;
+    width: 250px;
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 255px;
+}
+
+.p1 {
+    font-size: 0.875em;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+.olimp {
+    font-size: 1.125em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Oswald";
+    font-weight: 400;
+    color: #343434;
+}
+
+.rectangle2 {
+    width: 49%;
+    position: relative;
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+    .container_header {
+        width: 960px;
+    }
+
+    .container__header {
+        width: 960px;
+    }
+
+    .first_screen__content {
+        margin-left: 165px;
+        width: 70%;
+    }
+
+    .h1 {
+        font-size: 2.6em;
+    }
+
+    .text_project1 {
+        padding: 20px 25px;
+        width: 255px;
+        margin-top: -140px;
+        margin-left: 185px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .container {
+            width: 720px;
+        }
+
+        .container_header {
+            width: 720px;
+        }
+
+        .container__header {
+            width: 720px;
+        }
+
+        .logo_svg {
+            margin-left: 25px;
+            width: 90px;
+            margin-top: 20px;
+        }
+
+        .li {
+            font-size: 0.75em;
+        }
+
+        .li_first {
+            font-size: 0.75em;
+        }
+
+        .h1 {
+            font-size: 2em;
+        }
+
+        .work {
+            font-size: 0.875em;
+
+        }
+
+        .go_over {
+            padding: 10px 26px;
+            font-size: 0.875em;
+        }
+
+        .first_screen__content {
+            margin-left: 120px;
+        }
+
+        .intention {
+            margin-top: 100px;
+        }
+
+        .decor {
+            width: 30%;
+        }
+
+        .h2 {
+            padding: 20px 25px;
+            font-size: 1.375em;
+        }
+
+        .slider {
+            width: 40%;
+        }
+
+        .olympus {
+            margin-top: 45px;
+        }
+
+        .olimp {
+            font-size: 1em;
+        }
+
+        .p1 {
+            font-size: 0.75em;
+        }
+
+        .text_project1 {
+            padding: 20px 25px;
+            width: 255px;
+            margin-top: -130px;
+            margin-left: 70px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .container {
+                width: 100%;
+                padding: 0 15px;
+            }
+
+            .container__header {
+                width: 100%;
+            }
+
+            .mnu_top {
+                display: none;
+            }
+
+            .first_screen__content {
+                margin-left: 45px;
+            }
+
+            .h1 {
+                font-size: 1.625em;
+            }
+
+            .work {
+                margin-top: 20px;
+            }
+
+            .workp {
+                margin-top: 0;
+            }
+
+            .go_over {
+                font-size: 0.75em;
+                margin-top: 20px;
+            }
+
+            .intention {
+                margin-top: 20px;
+            }
+
+            .olympus {
+                margin-top: 15px;
+                flex-wrap: wrap;
+            }
+
+            .rectangle1 {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+
+            .rectangle2 {
+                width: 100%;
+            }
+            .text_project1 {
+                padding: 20px 25px;
+                width: 255px;
+            }
+    
+        }
+        @media screen and (max-width: 575px) {
+
+        }
